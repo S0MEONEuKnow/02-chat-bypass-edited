@@ -1,3 +1,6 @@
+--// Do remember thats only an edit of https://github.com/02Dcs/Chat
+--// All credits goes to him
+
 local Alphabet,old = loadstring(game:HttpGet("https://raw.githubusercontent.com/02Dcs/Chat/main/Symbols"))()
 old = hookmetamethod(game,"__namecall",function(self,...)
     if getnamecallmethod() == "FireServer" and tostring(self) == "SayMessageRequest" then
